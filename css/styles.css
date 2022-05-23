@@ -1,0 +1,116 @@
+body {
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2,.skills-list {color: rgb(27, 24, 24);
+    font-family: 'Inknut Antiqua', serif;}
+
+img {
+    /* this is limiting the width of the so it takes 100% width of the parent maximum */;
+    max-width: 100%;}
+
+nav {
+    position: fixed;
+    background-color: #fdc800;
+    z-index: 1;
+    width: 100%;
+    text-decoration: none;}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0, 15px; /*0 refers to top and bottom, and 15px to the left and right*/
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:15px;
+    
+}
+/* applied inline block to make 
+it only applies to the nav bar */
+
+ul li {
+    list-style: none; /* removes bullet points*/
+    margin: 10 px 0;
+    
+}
+
+nav, ul{
+    magin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    /* naturally centers the element*/
+}
+
+.bio {text-align: left;}
+
+
+header {
+    top: 130px; /*this was to create more space for the content in the middle*/
+    position: relative;
+    margin-bottom: 70px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80px;
+}
+
+h1 {
+    line-height: 130%;
+    font-size: 75px;;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 130%;
+    }
+
+h1, h2 { font-weight: normal;
+padding: 10px;}
+
+p {line-height: 150%;
+}
+
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 30px; 
+    display: inline-block;
+    border-radius: 20px;
+}
+figcaption {
+    font-size: 10px;
+    margin-top: 6px;
+    margin-bottom: 50px;
+}
+.intro-img {
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.skills-list {
+    text-align: center;
+    font-size: 50px;
+    line-height: 150%;
+    margin bottom: 130px;
+}
+
+.project {
+    margin: 30px, 0;
+    padding: 50px;
+}
+
+.blue {
+    background-color: #fdc800;
+}
+
+.project .button {
+    margin-top: 10px;
+}
